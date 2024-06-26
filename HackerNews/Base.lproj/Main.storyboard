@@ -71,6 +71,7 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="7iv-dw-aRd" firstAttribute="top" secondItem="1OL-v0-XBB" secondAttribute="bottom" constant="8.6666666666667425" id="EHL-uK-TxJ"/>
+                                                <constraint firstAttribute="trailing" secondItem="6D8-bv-fxZ" secondAttribute="trailing" constant="186" id="KNS-67-w27"/>
                                                 <constraint firstAttribute="trailing" secondItem="1OL-v0-XBB" secondAttribute="trailing" constant="20" symbolic="YES" id="MQv-o2-a9q"/>
                                                 <constraint firstItem="7iv-dw-aRd" firstAttribute="leading" secondItem="hsP-EF-Rn7" secondAttribute="trailing" constant="10" id="Oth-eo-VM8"/>
                                                 <constraint firstAttribute="bottom" secondItem="hsP-EF-Rn7" secondAttribute="bottom" constant="8" id="PJ6-Bb-4oJ"/>
