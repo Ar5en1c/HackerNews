@@ -60,7 +60,7 @@ extension NewsViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = newsTableView.dequeueReusableCell(withIdentifier: "NewsTableCell", for: indexPath) as? NewsTableCell else { return UITableViewCell()}
         cell.dataReceived = viewModel.getNewsHit(at: indexPath.row)
-        cell.loadData()
+//        cell.loadData()
         return cell
     }
 }
