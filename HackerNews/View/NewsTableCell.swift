@@ -46,7 +46,6 @@ extension NewsTableCell {
         DispatchQueue.main.async { [weak self] in
             self?.newsTitleLabel.text = "Title: \(hit.title ?? "No Data fetched")"
             self?.newsAuthorLabel.text = "Author: \(hit.author ?? "No Data fetched")"
-
             self?.newsLikesLabel.text = String(hit.points ?? 0)
             self?.newsCommentLabel.text = String(hit.num_comments ?? 0)
         }
